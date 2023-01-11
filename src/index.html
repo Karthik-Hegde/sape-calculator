@@ -12,8 +12,8 @@
       <img src="../assets/ShapeCalculator.png" alt="logo" />
     </header>
     <main>
-      <section class="shape-calc-container">
-        <div class="text-wrapper">
+      <div class="shape-calc-container">
+        <section class="text-wrapper">
           <h2>Welcome to Shape Calculator</h2>
           <p class="description">
             Shape Calculator is an interactive web application. To the right you
@@ -32,9 +32,9 @@
             World of Grammar. The Big Oxmox advised her not to do so, because
             there were thousands of bad Commas.
           </p>
-        </div>
-        <div class="calculator">
-          <section id="step-1">
+        </section>
+        <section class="calculator">
+          <div id="step-1" class="step-container">
             <h2>Step 1: Select your shape</h2>
             <p class="desc">
               Please select the shape that you would like to calculate the area
@@ -79,8 +79,8 @@
               <span>or</span>
               <button class="cancel" onclick="location.reload()">Cancel</button>
             </div>
-          </section>
-          <section id="step-2">
+          </div>
+          <div id="step-2" class="step-container">
             <h2>Step 2: Insert your values</h2>
             <p class="desc">
               You have selected a
@@ -128,8 +128,8 @@
               <span>or</span>
               <button class="cancel" onclick="location.reload()">Cancel</button>
             </div>
-          </section>
-          <section id="step-3">
+          </div>
+          <div id="step-3" class="step-container">
             <h2>Step 3: Your results</h2>
             <p>
               You have selected a <span id="step-3-shape"></span>, with
@@ -143,9 +143,9 @@
                 Start Over
               </button>
             </div>
-          </section>
-        </div>
-      </section>
+          </div>
+        </section>
+      </div>
       <aside>
         <div class="ad-container">
           <p>120 x 240 Ad</p>
